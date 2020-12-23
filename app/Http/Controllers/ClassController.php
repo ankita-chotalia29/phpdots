@@ -31,7 +31,7 @@ class ClassController extends Controller {
 		}else{
 
 
-			return view('addClass', compact('class', 'id','colleges','latest_id'));
+			return view('addClass', compact('colleges','latest_id'));
 		}
 
 
